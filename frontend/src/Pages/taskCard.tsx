@@ -28,7 +28,7 @@ const TaskCard = ({
             <div className="flex items-start justify-between gap-2">
                 <h2 className="font-bold text-black truncate text-sm sm:text-base">{task.title}</h2>
                 <span className={`shrink-0 text-xs font-semibold px-2 py-1 rounded-full capitalize
-                    ${task.status === 'todo' ? 'bg-gray-100 text-gray-700' : ''}
+                    ${task.status === 'todo' ? 'bg-violet-200 text-violet-800' : ''}
                     ${task.status === 'pending' ? 'bg-yellow-100 text-yellow-700' : ''}
                     ${task.status === 'in-progress' ? 'bg-blue-100 text-blue-700' : ''}
                     ${task.status === 'completed' ? 'bg-green-100 text-green-700' : ''}

@@ -42,7 +42,7 @@ const TaskDetails = () => {
                         <CardTitle className="text-xl font-bold">{taskDetails.title}</CardTitle>
                         
                         <span className={`shrink-0 text-xs font-semibold px-2 py-1 rounded-full capitalize
-                            ${taskDetails.status === 'todo' ? 'bg-gray-100 text-gray-700' : ''}
+                            ${taskDetails.status === 'todo' ? 'bg-violet-200 text-violet-800' : ''}
                             ${taskDetails.status === 'pending' ? 'bg-yellow-100 text-yellow-700' : ''}
                             ${taskDetails.status === 'in-progress' ? 'bg-blue-100 text-blue-700' : ''}
                             ${taskDetails.status === 'completed' ? 'bg-green-100 text-green-700' : ''}
