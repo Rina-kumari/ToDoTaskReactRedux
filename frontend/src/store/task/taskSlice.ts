@@ -2,7 +2,8 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import type { TaskFormData, TaskState } from '../../types/taskTypes';
 
-const BASE_URL = 'http://localhost:5000/api/task';
+//const BASE_URL = 'http://localhost:5000/api/task';
+const BASE_URL = 'https://todotaskreactredux.onrender.com/api/task';
 
 const initialState: TaskState = {
     isLoading: false,
